@@ -421,7 +421,7 @@ typeof(collect(r'))
 collect(r')
 ```
 
-## [Tuplas]()
+## [Tuplas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#estructuras-de-datos)
 
 Las tuplas son estructuras de datos que pueden contener cualquier número de elementos de diferentes tipos. A diferencia de los vectores, las tuplas son inmutables, lo que significa que no se pueden cambiar una vez que se han creado. Para crear una tupla, se usa la sintaxis:
 ```Julia
