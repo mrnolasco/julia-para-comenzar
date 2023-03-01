@@ -1,5 +1,5 @@
 # [<font color=blue>Introducción a Julia</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
-1. [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia-)
+1. [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n)
 1. [Comandos Básicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#comandos-b%C3%A1sicos)
 1. [Asignación de Valores](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#asignaci%C3%B3n-de-valores)
 1. [Comentarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#comentarios)
@@ -8,7 +8,7 @@
 1. [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#tipo-de-variables)
 1. [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#cadenas-de-caracteres)
 1. [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#impresi%C3%B3n-de-variables)
-### [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md)
+### [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 * Julia es un lenguaje de programación de alto nivel y alto rendimiento diseñado para la computación numérica y científica.
 
 * Fue lanzado en 2012 y combina una sintaxis moderna y amigable con una velocidad comparable a la de C.
