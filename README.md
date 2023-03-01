@@ -1,9 +1,9 @@
 # julia-para-comenzar
 Curso básico para comenzar a programar en Julia
 ## <font color=blue>Instalación de Julia</font>
-* Descargue la versión correspondiente de Julia según el sistema operativo que se esté utilizando (Windows, MacOS o Linux).
+* Descargue la versión 1.8.5 de Julia o superior, según corresponda al sistema operativo que se esté utilizando (Windows, MacOS o Linux).
 
-https://julialang.org/
+  https://julialang.org/
 
 * Una vez que instalado Julia, abra la aplicación y ejecute los siguientes comandos para instalar el paquete IJulia y Jupyter:
 
@@ -11,9 +11,10 @@ https://julialang.org/
 using IJulia;
 notebook()
 ```
-* Una vez que haya ejecutado estos comandos, no será necesario volver a instalar IJulia o Jupyter. 
-* Posterior a la instalación se ejecutará una libreta de Jupyter.
-* Ahora tiene instalado Julia con la libreta de Jupyter, puede ejecutar desde el icono en su escritorio o mediante la ejecución del comando `using IJulia; notebook()` en una consola o terminal de Julia.
+* Asegúrese de aceptar la instalación del paquete IJulia y de Jupyter.
+* No será necesario volverlos a instalar. 
+* Después de la instalación, se ejecutará automáticamente una libreta de Jupyter.
+* Ahora que ha instalado Julia con la libreta de Jupyter, puede iniciar la aplicación desde el icono en su escritorio o ejecutando el comando `using IJulia; notebook()` en una consola o terminal de Julia.
 
 ## <font color=blue>[Introducción a la Programación en Julia](https://github.com/mrnolasco/julia-para-comenzar/blob/main/Notebook%2001%20-%20Introducci%C3%B3n%20a%20la%20Programaci%C3%B3n%20en%20Julia.ipynb)</font>
 
