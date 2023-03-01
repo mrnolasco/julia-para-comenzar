@@ -21,14 +21,15 @@ notebook()
 <a name="contenidos"></a>
 # <font color=blue>Introducción a la Programación en Julia</font>
 1. [Introducción a Julia](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md)
-    * [Introducción y Comandos Básicos](#U1)
-    * [Asignación de Valores](#U1S0)
-    * [Comentarios](#U1S1)
-    * [Caracteres Unicode](#U1S2)
-    * [Modo de Ayuda en la Consola](#U1S3)
-    * [Tipo de Variables](#U1S4)
-    * [Cadenas de caracteres](#U1S5)
-    * [Impresión de variables](#U1S6)
+    * [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia-)
+    * [Comandos Básicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#comandos-b%C3%A1sicos)
+    * [Asignación de Valores](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#asignaci%C3%B3n-de-valores)
+    * [Comentarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#comentarios)
+    * [Caracteres Unicode](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#caracteres-unicode)
+    * [Modo de Ayuda en la Consola](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#modo-de-ayuda-en-la-consola)
+    * [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#tipo-de-variables)
+    * [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#cadenas-de-caracteres)
+    * [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#impresi%C3%B3n-de-variables)
 2. [Estructuras de datos]()
     * Diccionarios
     * Arreglos
