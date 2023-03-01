@@ -119,7 +119,7 @@ end
 factorial(5)  # 120
 ```
 
-### (Comandos básicos](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+### [Comandos básicos](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 El comando `versioninfo()` es un comando útil en Julia que muestra información sobre la versión de Julia que estás utilizando y la versión de los componentes principales que lo acompañan.
 
 Por ejemplo en la salida de 
