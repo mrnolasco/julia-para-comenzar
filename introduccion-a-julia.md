@@ -1,4 +1,4 @@
-# [<font color=blue>Introducción a Julia</font>](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia-1)
+# [<font color=blue>Introducción a Julia</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 * Julia es un lenguaje de programación de alto nivel y alto rendimiento diseñado para la computación numérica y científica.
 
 * Fue lanzado en 2012 y combina una sintaxis moderna y amigable con una velocidad comparable a la de C.
@@ -90,7 +90,7 @@ Este paradigma se centra en la creación de secuencias de instrucciones que se e
 
 En Julia, se pueden crear programas por procedimientos con el uso de estructuras de control de flujo, como bucles y condicionales, y funciones que operan sobre datos estructurados. 
 
-Ejemplos de aplicaciones que utilizan programación procedural en Julia incluyen el procesamiento de datos en lotes y la automatización de tareas.
+Ejemplos de aplicaciones que utilizan programación por procedimientos en Julia incluyen el procesamiento de datos en lotes y la automatización de tareas.
 ```julia
 """
     factorial(n)
@@ -119,7 +119,7 @@ end
 factorial(5)  # 120
 ```
 
-### Comandos básicos
+### (Comandos básicos](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 El comando `versioninfo()` es un comando útil en Julia que muestra información sobre la versión de Julia que estás utilizando y la versión de los componentes principales que lo acompañan.
 
 Por ejemplo en la salida de 
@@ -158,24 +158,21 @@ Aquí hay un ejemplo de cómo se puede usar `readdir()` en Julia:
 ```julia
 readdir()
 ```
-## [Asignación de Valores]()
+## [Asignación de Valores](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 Para asignar un valor a una variable, simplemente escribe el nombre de la variable, seguido del signo `=` y luego el valor que deseas asignar. 
 
 Aquí un ejemplo:
 ```julia
-a = 5.1
-```
-```julia
-a
+a = 5.1 
 ```
 En Julia se puede usar el punto y coma `;` para separar múltiples instrucciones en una sola línea.
 
 Es importante tener en cuenta que aunque se pueden poner varias instrucciones en la misma línea separadas por `;`, esto puede hacer que el código sea más difícil de leer y mantener. Por lo general, es mejor poner cada instrucción en una línea separada para hacer el código más legible.
 ```julia
-b = a + 1; c = 5.2a
+b = a + 1; c = 5.2a #26.52
 ```
 Julia muestra el valor asignado a la última variable
-## [Comentarios]()
+## [Comentarios](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 Para poner comentarios de una línea ponga `#` y luego el texto.
 
 Cualquier texto que siga al símbolo `#`	 en una línea se considera un comentario y se ignora durante la ejecución del código. Los comentarios son útiles para explicar el propósito de un código, documentar su uso o aclarar partes del código que pueden ser confusas.
@@ -192,9 +189,7 @@ que se extiende
 a varias líneas 
 =#
 ```
-## [Caracteres Unicode](#contenidos) <a name="U1S2"></a>
-
-
+## [Caracteres Unicode](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 En Julia, se pueden utilizar caracteres Unicode para escribir fórmulas matemáticas y otros símbolos especiales. Esto hace que el código sea más legible y fácil de entender.
 
 Para insertar un carácter Unicode en el código, se puede utilizar el comando `\` seguido del nombre del símbolo y luego presionar la tecla `TAB`. Julia completará automáticamente el nombre del símbolo y lo convertirá en el símbolo correspondiente.
@@ -211,38 +206,47 @@ Aquí hay algunos ejemplos de comandos Unicode que se pueden utilizar en Julia:
 - `\sum` + `TAB` $\quad\longrightarrow\quad\sum{}$
 - `\infty` + `TAB` $\quad\longrightarrow\quad\infty$
 
-
-
 ```julia
 \alpha   # presiona tecla TAB justo después del comando
 ```
-
 Además, podemos usar subíndices y super índices para nombrar las variables
 
 Para el subíndice usamos
-
 > `\_` + `2` + `TAB`
-
 mientras que para el superíndice 
-
 > `\^` + `2` + `TAB`
-
-
 ```julia
 α\_i   # presiona tecla TAB justo después del comando
 ```
-
-
 ```julia
 α\^2   # presiona tecla TAB justo después del comando
 ```
 
-## [Modo de Ayuda en la Consola]()
+## [Modo de Ayuda en la Consola](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 En Julia se puede obtener información sobre una función o comando utilizando el signo de interrogación (`?`) seguido del nombre de la función o comando.
 
 Se muestra información del comando y en ocasiones un ejemplo de como usarlo
 ```julia
 ?+
+```
+```
+search: +
+
++(x, y...)
+Addition operator. x+y+z+... calls this function with all arguments, i.e. +(x, y, z, ...).
+
+Examples
+julia> 1 + 20 + 4
+25
+
+julia> +(1, 20, 4)
+25
+dt::Date + t::Time -> DateTime
+The addition of a Date with a Time produces a DateTime. The hour, minute, second, and millisecond parts of the Time are used along with the year, month, and day of the Date to create the new DateTime. Non-zero microseconds or nanoseconds in the Time type will result in an InexactError being thrown.
+
+La diferencia principal entre estos dos enfoques es que el operador + es una forma abreviada de llamar a la función + con dos argumentos, mientras que +() es una forma explícita de llamar a la función + con cualquier cantidad de argumentos. Es decir, x + y + z es equivalente a +(x, y, z).
+
+La expresión dt::Date + t::Time -> DateTime especifica que es posible sumar fechas y horas en Julia, y que el resultado será un objeto de tipo DateTime que combina ambas.
 ```
 La diferencia principal entre estos dos enfoques es que el operador `+` es una forma abreviada de llamar a la función `+` con dos argumentos, mientras que `+()` es una forma explícita de llamar a la función `+` con cualquier cantidad de argumentos. Es decir, `x + y + z` es equivalente a `+(x, y, z)`.
 
@@ -260,7 +264,7 @@ dt = d + t
 # Imprimir el resultado
 println(dt)
 ```
-## [Tipo de Variables]()
+## [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 En Julia, se puede utilizar el comando `typeof` para conocer el tipo de una variable. 
 
 La sintaxis es la siguiente:
@@ -271,46 +275,62 @@ donde `x` es la variable que queremos conocer su tipo.
 ```julia
 ?typeof
 ```
-```julia
-typeof(d)
+```
+search: typeof typejoin TypeError
+
+typeof(x)
+Get the concrete type of x.
+
+See also eltype.
+
+Examples
+julia> a = 1//2;
+
+julia> typeof(a)
+Rational{Int64}
+
+julia> M = [1 2; 3.5 4];
+
+julia> typeof(M)
+Matrix{Float64} (alias for Array{Float64, 2})
 ```
 ```julia
-typeof(t)
+typeof(d) # Date
 ```
 ```julia
-typeof(dt)
+typeof(t) # Time
 ```
 ```julia
-typeof(100)
+typeof(dt) # DateTime
 ```
 ```julia
-typeof(1000//10)
+typeof(100) # Int64
 ```
 ```julia
-1//2+1//3
+typeof(1000//10) # Rational{Int64}
 ```
 ```julia
-typeof(1f20)
+typeof(1f20) # Float32
 ```
 ```julia
-typeof(100.0 )
+typeof(100.0 ) # Float64
 ```
 ```julia
-typeof(1e2)
+typeof(1e2) # Float64
 ```
 ```julia
-typeof(100+0im)
+typeof(100+0im) # Complex{Int64}
 ```
-## [Cadenas de caracteres](#contenidos) <a name="U1S5"></a>
+## [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 En Julia, los caracteres se escriben entre comillas simples (`' '`):
 ```julia
 caracter='s'
-typeof(caracter)
+typeof(caracter) # Char
 ```
 mientras que las cadenas de texto se escriben entre comillas dobles (`" "`):
 ```julia
 c = "esto es una cadena"
-typeof(c)
+typeof(c) # String
 ```
 Es importante tener en cuenta que las cadenas de texto en Julia son inmutables, es decir, no se pueden cambiar una vez que se han definido. Sin embargo, es posible construir nuevas cadenas a partir de las existentes utilizando diversas funciones y operaciones en cadenas, como la concatenación, la división y la eliminación de caracteres.
 
@@ -321,53 +341,53 @@ En Julia se puede acceder a los elementos de una cadena de texto utilizando su �
 - usa `end` para referirte al último índice
 - podemos seleccionar los carácteres con un rango de indices
 ```julia
-c[1]
+c[1] # 'e': ASCII/Unicode U+0065 (category Ll: Letter, lowercase)
 ```
 ```julia
-c[end]
+c[end] # 'a': ASCII/Unicode U+0061 (category Ll: Letter, lowercase)
 ```
 ```julia
-c[1:3]
+c[1:3] # "est"
 ```
 En Julia puedes concatenar cadenas con el operador `*`. 
 
 Aquí te muestro algunos ejemplos:
 ```julia
-"Hola " * "mundo"
+"Hola " * "mundo" # "Hola mundo"
 ```
 ```julia
-s1 = "Julia"
+s1 = "Julia" # "Julia"
 ```
 ```julia
-s2 = " es un lenguaje de programación."
+s2 = " es un lenguaje de programación." # " es un lenguaje de programación."
 ```
 ```julia
-s1 * s2
+s1 * s2 # "Julia es un lenguaje de programación."
 ```
 También puedes usar la función `string()` para concatenar cadenas o cualquier otro tipo de variable:
 ```julia
-string("El número es ", 42)
+string("El número es ", 42) "El número es 42"
 ```
 **Si concatenas dos caracteres, ¿qué obtienes?**
 Si concatenas dos caracteres en Julia, obtendrás una cadena de longitud 2.
 ```julia
 caracter1='m'
 caracter2='n'
-caracter1*caracter2
+caracter1*caracter2 #"mn"
 ```
 ```julia
-typeof(caracter1*caracter2)
+typeof(caracter1*caracter2) # String
 ```
 usa `length` para conocer el tamaño de una cadena
 ```julia
-length(caracter1*caracter2)
+length(caracter1*caracter2) # 2
 ```
-## [Impresión de variables]()
+## [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 Usa el comando `println`  para mostrar el valor de una variable
 ```julia
 α = 1/3
 β = α + 1 
-println(α)
+println(α) # 0.3333333333333333
 ```
 Podemos mostrar cadenas junto con el valor de una variable usando la síntaxis
 ```julia
@@ -375,7 +395,11 @@ println("texto $variable")
 ```
 Use `\n` dentro de la cadena para agregar un salto de línea:
 ```julia
-println("El valor de α es $α\nEl valor de β es $β")
+println("El valor de α es $α\nEl valor de β es $β") 
+```
+```
+El valor de α es 0.3333333333333333
+El valor de β es 1.3333333333333333
 ```
 El comando `@sprintf` permite controlar el formato de una cadena que incluye valores numéricos y puede ser utilizado en conjunto con `println` para imprimir la cadena formateada en la salida estándar.
 
@@ -387,6 +411,11 @@ using Printf
 s=@sprintf "entero = %d\nflotante1 = %1.3e\nflotante2 = %.2f" γ α α;
 
 println(s)
+```
+```
+entero = 139
+flotante1 = 3.333e-01
+flotante2 = 0.33
 ```
 Donde:
 - `%d` indica que se debe imprimir el valor como un número entero.
