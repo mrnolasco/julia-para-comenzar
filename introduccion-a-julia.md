@@ -1,4 +1,14 @@
 # [<font color=blue>Introducción a Julia</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+1. [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia-)
+1. [Comandos Básicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#comandos-b%C3%A1sicos)
+1. [Asignación de Valores](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#asignaci%C3%B3n-de-valores)
+1. [Comentarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#comentarios)
+1. [Caracteres Unicode](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#caracteres-unicode)
+1. [Modo de Ayuda en la Consola](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#modo-de-ayuda-en-la-consola)
+1. [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#tipo-de-variables)
+1. [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#cadenas-de-caracteres)
+1. [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#impresi%C3%B3n-de-variables)
+### [Introducción](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md)
 * Julia es un lenguaje de programación de alto nivel y alto rendimiento diseñado para la computación numérica y científica.
 
 * Fue lanzado en 2012 y combina una sintaxis moderna y amigable con una velocidad comparable a la de C.
@@ -119,7 +129,7 @@ end
 factorial(5)  # 120
 ```
 
-### [Comandos básicos](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+### [Comandos básicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 El comando `versioninfo()` es un comando útil en Julia que muestra información sobre la versión de Julia que estás utilizando y la versión de los componentes principales que lo acompañan.
 
 Por ejemplo en la salida de 
@@ -158,7 +168,7 @@ Aquí hay un ejemplo de cómo se puede usar `readdir()` en Julia:
 ```julia
 readdir()
 ```
-## [Asignación de Valores](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Asignación de Valores](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 Para asignar un valor a una variable, simplemente escribe el nombre de la variable, seguido del signo `=` y luego el valor que deseas asignar. 
 
 Aquí un ejemplo:
@@ -172,7 +182,7 @@ Es importante tener en cuenta que aunque se pueden poner varias instrucciones en
 b = a + 1; c = 5.2a #26.52
 ```
 Julia muestra el valor asignado a la última variable
-## [Comentarios](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Comentarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 Para poner comentarios de una línea ponga `#` y luego el texto.
 
 Cualquier texto que siga al símbolo `#`	 en una línea se considera un comentario y se ignora durante la ejecución del código. Los comentarios son útiles para explicar el propósito de un código, documentar su uso o aclarar partes del código que pueden ser confusas.
@@ -189,7 +199,7 @@ que se extiende
 a varias líneas 
 =#
 ```
-## [Caracteres Unicode](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Caracteres Unicode](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 En Julia, se pueden utilizar caracteres Unicode para escribir fórmulas matemáticas y otros símbolos especiales. Esto hace que el código sea más legible y fácil de entender.
 
 Para insertar un carácter Unicode en el código, se puede utilizar el comando `\` seguido del nombre del símbolo y luego presionar la tecla `TAB`. Julia completará automáticamente el nombre del símbolo y lo convertirá en el símbolo correspondiente.
@@ -222,7 +232,7 @@ mientras que para el superíndice
 α\^2   # presiona tecla TAB justo después del comando
 ```
 
-## [Modo de Ayuda en la Consola](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Modo de Ayuda en la Consola](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 En Julia se puede obtener información sobre una función o comando utilizando el signo de interrogación (`?`) seguido del nombre de la función o comando.
 
 Se muestra información del comando y en ocasiones un ejemplo de como usarlo
@@ -264,7 +274,7 @@ dt = d + t
 # Imprimir el resultado
 println(dt)
 ```
-## [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 En Julia, se puede utilizar el comando `typeof` para conocer el tipo de una variable. 
 
 La sintaxis es la siguiente:
@@ -321,7 +331,7 @@ typeof(1e2) # Float64
 ```julia
 typeof(100+0im) # Complex{Int64}
 ```
-## [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 En Julia, los caracteres se escriben entre comillas simples (`' '`):
 ```julia
 caracter='s'
@@ -382,7 +392,7 @@ usa `length` para conocer el tamaño de una cadena
 ```julia
 length(caracter1*caracter2) # 2
 ```
-## [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+## [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#introducci%C3%B3n-a-julia)
 Usa el comando `println`  para mostrar el valor de una variable
 ```julia
 α = 1/3
