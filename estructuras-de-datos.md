@@ -1,15 +1,15 @@
 # [<font color=blue>Estructuras de datos</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 
 Julia cuenta con varias estructuras de datos principales que se utilizan en la programación. A continuación, se describen algunas de las más importantes:
-1. [Diccionarios]()
-1. [Arreglos]()
-1. [Tuplas]()
-1. [Conjuntos]()
-1. [Tipos Estructurados]()
+1. [Diccionarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#diccionarios)
+1. [Arreglos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#arreglos)
+1. [Tuplas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#tuplas)
+1. [Conjuntos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#conjuntos)
+1. [Tipos Estructurados](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#tipos-estructurados)
 
 Estas son solo algunas de las estructuras de datos que se utilizan comúnmente en Julia. Existen otras como matrices dispersas, colas, pilas, entre otras.
 
-## [Diccionarios]()
+## [Diccionarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#estructuras-de-datos)
 Los diccionarios son estructuras de datos que se utilizan para almacenar valores asociados con claves. Cada clave debe ser única y se utiliza para acceder a su valor correspondiente. Para crear un diccionario, se usa la sintaxis:
 
 ```julia
@@ -96,7 +96,7 @@ contactos[1]
 
 En su lugar, debe accederse a un valor en un diccionario por su llave.
 
-## [Arreglos]()
+## [Arreglos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#estructuras-de-datos)
 
 Los arreglos son estructuras de datos que permiten almacenar una colección ordenada de elementos. Se pueden crear arreglos de cualquier tipo de dato en Julia, incluyendo números, caracteres, cadenas de texto, estructuras de datos y funciones. Los arreglos se crean con corchetes `[]` y los elementos se separan con comas, se usa la sintaxis:
 Estructura de datos con la siguiente síntaxis:
@@ -509,7 +509,7 @@ x₂ = tupla[2]
 
 También podemos desempaquetar tuplas dentro de otras estructuras de datos, como matrices o vectores. En este caso, usamos la misma sintaxis de asignación múltiple o índices para extraer los elementos de la tupla.
 
-## [Conjuntos]()
+## [Conjuntos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#estructuras-de-datos)
 
 Los conjuntos son colecciones no ordenadas de elementos únicos. Se utilizan comúnmente para realizar operaciones de conjuntos, como unión, intersección y diferencia. 
 Para crear un conjunto, se usa la sintaxis:
@@ -587,7 +587,7 @@ pop!(conjunto_vacio, 1)
 conjunto_vacio
 ```
 
-## [Tipos estructurados]()
+## [Tipos estructurados](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#estructuras-de-datos)
 
 Los tipos estructurados se utilizan para definir nuevos tipos de datos personalizados que tienen campos con nombres y tipos específicos. 
 
