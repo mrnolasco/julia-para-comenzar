@@ -14,6 +14,6 @@ notebook()
     * Aceptar la instalación de Python+Jupyter.
 * Posterior a esto se ejecutará una libreta de Jupyter con el kernel de Julia.
 
-## <font color=blue>Introducción a la Programación en Julia</font>
+## <font color=blue>[Introducción a la Programación en Julia](https://github.com/mrnolasco/julia-para-comenzar/blob/main/Notebook%2001%20-%20Introducci%C3%B3n%20a%20la%20Programaci%C3%B3n%20en%20Julia.ipynb)</font>
 
 * En esta primera sección, te familiarizarás con los conceptos básicos de programación en Julia. Aprenderás acerca de la asignación de valores, los tipos de variables, las estructuras de datos, los condicionales y los ciclos. Además, conocerás las operaciones y funciones, incluyendo las operaciones con variables numéricas, los arreglos de números, matrices y cadenas, y cómo definir tus propias funciones. También cubriremos el uso de map, broadcasting y conversiones en Julia. Al final, encontrarás una sección de ejercicios que te ayudarán a consolidar los conocimientos adquiridos.
