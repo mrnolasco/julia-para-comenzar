@@ -30,12 +30,12 @@ notebook()
     * [Tipo de Variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#tipo-de-variables)
     * [Cadenas de caracteres](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#cadenas-de-caracteres)
     * [Impresión de variables](https://github.com/mrnolasco/julia-para-comenzar/blob/main/introduccion-a-julia.md#impresi%C3%B3n-de-variables)
-2. [Estructuras de datos]()
-    * Diccionarios
-    * Arreglos
-    * Tuplas
-    * Conjuntos
-    * Tipos Estructurados
+2. [Estructuras de datos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md)
+    * [Diccionarios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#diccionarios)
+    * [Arreglos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#arreglos)
+    * [Tuplas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#tuplas)
+    * [Conjuntos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#conjuntos)
+    * [Tipos Estructurados](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#tipos-estructurados)
 3. [Condicionales y Ciclos]()
     * Condicionales
         * ¿está o no está?
