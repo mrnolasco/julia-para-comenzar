@@ -36,22 +36,22 @@ notebook()
     * [Tuplas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#tuplas)
     * [Conjuntos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#conjuntos)
     * [Tipos Estructurados](https://github.com/mrnolasco/julia-para-comenzar/blob/main/estructuras-de-datos.md#tipos-estructurados)
-3. [Condicionales y Ciclos]()
-    * Condicionales
+3. [Condicionales y Ciclos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md)
+    * [Condicionales](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-)
         * ¿está o no está?
         * Comparaciones
         * Operadores lógicos
         * If, Else, Elseif
-    * Ciclos
+    * [Ciclos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#ciclos-)
         * While
         * For       
-4. [Operaciones y Funciones]()
-    * Operaciones
+4. [Operaciones y Funciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md)
+    * [Operaciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-)
         * Operaciones con variables numéricas
         * Operaciones entre arreglos de números
         * Operaciones entre matrices
         * Operaciones entre cadenas
-    * [Funciones]()
+    * [Funciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#funciones-)
         * Algunas funciones matemáticas predefinidas
         * Algunas funciones para arreglos
         * Define tus propias funciones
@@ -59,4 +59,4 @@ notebook()
         * Broadcasting
         * Sintaxis general
         * Conversiones
-5. [Ejercicios]()
+5. [Ejercicios](https://github.com/mrnolasco/julia-para-comenzar/blob/main/ejercicios-nb1.md)
