@@ -55,7 +55,9 @@ R = rand([1,10,100,1000],3,3)
 R[3,3] == 1000
 ```
 
-Podemos acceder a bloques de matrices, por ejemplo el bloque $$\begin{pmatrix}r_{1,1} & r_{1,2} \\ r_{2,1} & r_{2,2}\end{pmatrix}$$ de la matriz $R$:
+Podemos acceder a bloques de matrices, por ejemplo el bloque 
+$$\begin{pmatrix}r_{1,1} & r_{1,2} \\ r_{2,1} & r_{2,2}\end{pmatrix}$$
+de la matriz $R$:
 
 
 ```julia
