@@ -1,4 +1,4 @@
-# [<font color=blue>Condicionales y Ciclos</font>](#contenidos) <a name="U3"></a>
+# [<font color=blue>Condicionales y Ciclos</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 
 ## [Condicionales](#contenidos) <a name="U3S1"></a>
 
@@ -55,7 +55,7 @@ R = rand([1,10,100,1000],3,3)
 R[3,3] == 1000
 ```
 
-Podemos acceder a bloques de matrices, por ejemplo el bloque $\begin{pmatrix}r_{1,1} & r_{1,2} \\ r_{2,1} & r_{2,2}\end{pmatrix}$ de la matriz $R$:
+Podemos acceder a bloques de matrices, por ejemplo el bloque $$\begin{pmatrix}r_{1,1} & r_{1,2} \\ r_{2,1} & r_{2,2}\end{pmatrix}$$ de la matriz $R$:
 
 
 ```julia
@@ -63,8 +63,8 @@ R[1:2,1:2]
 ```
 
 Pregunta si la matriz
-$A= \begin{pmatrix}1 & 10 \\ 100 & 1000\end{pmatrix}$
-es $\begin{pmatrix}r_{1,1} & r_{1,2} \\ r_{2,1} & r_{2,2}\end{pmatrix}$
+$$A= \begin{pmatrix}1 & 10 \\ 100 & 1000\end{pmatrix}$$
+es $$\begin{pmatrix}r_{1,1} & r_{1,2} \\ r_{2,1} & r_{2,2}\end{pmatrix}$$
 
 
 ```julia
