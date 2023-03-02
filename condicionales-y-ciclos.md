@@ -1,12 +1,12 @@
 # [<font color=blue>Condicionales y Ciclos</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 * [Condicionales](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales)
-        * [¿está o no está?](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#est%C3%A1-o-no-est%C3%A1)
-        * [Comparaciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#comparaciones)
-        * [Operadores lógicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#operadores-l%C3%B3gicos)
-        * [If, Else, Elseif](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#if-else-elseif)
+    * [¿está o no está?](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#est%C3%A1-o-no-est%C3%A1)
+    * [Comparaciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#comparaciones)
+    * [Operadores lógicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#operadores-l%C3%B3gicos)
+    * [If, Else, Elseif](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#if-else-elseif)
 * [Ciclos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#ciclos)
-        * [While](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#while)
-        * [For](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#for)
+    * [While](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#while)
+    * [For](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#for)
         
 ## [Condicionales](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
