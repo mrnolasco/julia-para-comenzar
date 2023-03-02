@@ -1,5 +1,5 @@
 
-# [<font color=blue>Operaciones y Funciones</font>](#contenidos) <a name="U4"></a>
+# [<font color=blue>Operaciones y Funciones</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
 Las operaciones en Julia funcionan de manera similar a otros lenguajes de programación. 
 
 Podemos realizar operaciones con variables numéricas, arreglos de números, matrices y cadenas.
