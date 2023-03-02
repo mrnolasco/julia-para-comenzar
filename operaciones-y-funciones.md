@@ -17,9 +17,9 @@ Las operaciones en Julia funcionan de manera similar a otros lenguajes de progra
 
 Podemos realizar operaciones con variables numéricas, arreglos de números, matrices y cadenas.
 
-## [Operaciones](#contenidos) <a name="U4S1"></a>
+## [Operaciones]([#contenidos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)) 
 
-### [Operaciones con variables numéricas](#contenidos) <a name="U4S1S1"></a>
+### [Operaciones con variables numéricas]([#contenidos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones))
 
 Podemos realizar las operaciones aritméticas básicas, como la suma (`+`), la resta (`-`), la multiplicación (`*`) y la división (`/`) en Julia. También podemos usar los operadores de potencia (`^`) y residuo (`%`).
 
@@ -48,7 +48,7 @@ en vez de
    
 lo mismo para cualquier otra cifra 
 
-### [Operaciones entre arreglos de números](#contenidos) <a name="U4S1S2"></a>
+### [Operaciones entre arreglos de números](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)
 
 Podemos realizar operaciones entre arreglos de números en Julia. 
 
@@ -94,7 +94,7 @@ nume1 = [101.1 253.3 π 3//4]
 nume1.^2
 ```
 
-### [Operaciones entre matrices](#contenidos) <a name="U4S1S3"></a>
+### [Operaciones entre matrices](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)
 
 Podemos realizar operaciones entre matrices en Julia. 
 
@@ -177,7 +177,7 @@ b = ones(5)
 x = A\b
 ```
 
-### [Operaciones entre cadenas](#contenidos) <a name="U4S1S4"></a>
+### [Operaciones entre cadenas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
 En Julia se pueden realizar operaciones entre cadenas de texto, tal como la concatenación y la repetición:
 
@@ -201,11 +201,11 @@ cadena = "abc"
 repetido = cadena^3  
 ```
 
-## [Funciones](#contenidos) <a name="U4S2"></a>
+## [Funciones]([#contenidos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)) 
 
 Son objetos que reciben una tupla de argumentos y devuelven un valor.
 
-### [Algunas funciones matemáticas predefinidas](#contenidos) <a name="U4S2S1"></a>
+### [Algunas funciones matemáticas predefinidas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
 Julia tiene una variedad de funciones matemáticas predefinidas. Algunas de estas funciones son:
 
@@ -218,7 +218,7 @@ raíz cuadrada `sqrt` , valor absoluto `abs`,
 piso `floor`, techo `ceil` y muchas más
 
 
-### [Algunas funciones para arreglos](#contenidos) <a name="U4S2S2"></a>
+### [Algunas funciones para arreglos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
 Julia también tiene una variedad de funciones para trabajar con arreglos. 
 
@@ -254,7 +254,7 @@ minimum([5, 3, 4, 1])
 maximum([5, 3, 4, 1])
 ```
 
-### [Define tus propias funciones](#contenidos) <a name="U4S2S3"></a>
+### [Define tus propias funciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)
 
 Es posible definir funciones en Julia especificando una fórmula matemática para el cálculo de su resultado. 
 
@@ -328,7 +328,7 @@ Trata de aplicar la  función `f₃` al  arreglo `[-1, 0, 1]`
 f₃([-1, 0, 1])
 ```
 
-### [Map](#contenidos) <a name="U4S2S4"></a>
+### [Map](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
 `map` es una función de orden superior en Julia que devuelve un nuevo arreglo con los resultados de aplicar una `función` a cada elemento del `iterable`.
 
@@ -367,7 +367,7 @@ $$ x \mapsto
 map(x -> (x > 0) ? √x + 1 : x + 1, (-5, 0, π)) 
 ```
 
-### [Broadcasting](#contenidos) <a name="U4S2S5"></a>
+### [Broadcasting](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
 `Broadcasting` es una extensión de funciones para trabajar con elementos de matrices y vectores de manera más eficiente.
 Extiende las funciones para que reciban tuplas o arreglos usando la sintaxis:
@@ -403,7 +403,7 @@ f = x -> sqrt(abs(x)) +1
 f.(array)
 ```
 
-### [Sintaxis general](#contenidos) <a name="U4S2S6"></a>
+### [Sintaxis general](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)
 
 Sintaxis más general para funciones
 
@@ -451,8 +451,7 @@ Concatenación elemento a elemento de arreglos de cadenas
 mi_potencia.(rand(["a","b","c","d"],2,2),3)
 ```
 
-### [Conversiones](#contenidos) <a name="U4S2S7"></a>
-
+### [Conversiones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 En Julia, es posible convertir valores de un tipo de dato a otro mediante las funciones de conversión. 
 
 Algunas de las funciones de conversión disponibles son:
