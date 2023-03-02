@@ -8,7 +8,7 @@
 * Crea un diccionario que contenga los nombres de los planetas del sistema solar como claves y sus diámetros como valores.
 * Genera un arreglo que contenga los primeros `n` números primos.
 * Crea una tupla que contenga los coeficientes de un polinomio de segundo grado y calcula sus raíces utilizando la fórmula general.
-* Crear el tipo estructurado Planeta con los campos `rad`(radio orbital) y `per`(periodo orbital), luego agrega los datos de los planetas utilizando la sintaxis de creación de instancias de la estructura Planeta, enseguida calcular la constante de Kepler para cada planeta (investiga la fórmula correspondiente), por último muestra los resultados en una tabla. 
+* Crear el tipo estructurado `Planeta` con los campos `rad`(radio orbital) y `per`(periodo orbital), luego agrega los datos de los planetas utilizando la sintaxis de creación de instancias de la estructura Planeta, enseguida calcular la constante de Kepler para cada planeta (investiga la fórmula correspondiente), por último muestra los resultados en una tabla. 
 3. Condicionales y Ciclos:
 * Escribe un programa que solicite al usuario un número entero positivo y que imprima si es par o impar.
 * Implementa una función que calcule el máximo común divisor de dos números utilizando el algoritmo de Euclides.
