@@ -1,13 +1,20 @@
 # [<font color=blue>Condicionales y Ciclos</font>](https://github.com/mrnolasco/julia-para-comenzar#introducci%C3%B3n-a-la-programaci%C3%B3n-en-julia-1)
+* [Condicionales](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-)
+        * [¿está o no está?](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#est%C3%A1-o-no-est%C3%A1-)
+        * [Comparaciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#comparaciones-)
+        * [Operadores lógicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#operadores-l%C3%B3gicos-)
+        * [If, Else, Elseif](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#if-else-elseif-)
+    * [Ciclos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#ciclos-)
+        * [While](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#while-)
+        * [For](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#for-) 
+        
+## [Condicionales](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
-## [Condicionales](#contenidos) <a name="U3S1"></a>
-
-### [¿está o no está?](#contenidos) <a name="U3S1S1"></a>
+### [¿está o no está?](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
 En Julia `in` se utiliza para verificar si un valor se encuentra en una estructura de datos determinada. Retorna `true` si el valor está presente y `false` si no lo está.
 
 Ejemplo para tuplas
-
 
 ```julia
 letra = "α"
@@ -33,7 +40,7 @@ C = rand(0:50, 5, 5)
 a in C
 ```
 
-### [Comparaciones](#contenidos) <a name="U3S1S2"></a>
+### [Comparaciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
 En Julia, `==` es un operador de comparación que se utiliza para verificar si dos objetos tienen el mismo valor. A diferencia del operador `=` que se utiliza para asignar valores a una variable, `==` se utiliza para comparar los valores de dos objetos.
 
@@ -135,7 +142,7 @@ r = rand(0:10)
 ```julia
 r ≤ 5
 ```
-### [Operadores lógicos](#contenidos) <a name="U3S1S3"></a>
+### [Operadores lógicos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
 En Julia, los operadores lógicos son `&&` para el operador "y" (and) y `||` para el operador "o" (or).
 
@@ -204,7 +211,7 @@ C = rand(0:50,5,5)
 |( 40 ∈ C, 17 ∈ C, 23 ∈ C )
 ```
 
-### [IF, ELSE, ELSEIF](#contenidos) <a name="U3S1S4"></a>
+### [If, Else, Elseif](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
 #### Condicional `if`
 El condicional `if` se usa para ejecutar un bloque de código solo si una expresión es verdadera. 
@@ -359,9 +366,9 @@ end
 
 En este ejemplo, si `num_x` es menor que cero se imprime `"num_x es negativo"`. Si no lo es, se evalúa la siguiente condición en la cláusula `elseif`, que es si `num_x` es igual a cero. Si `num_x` no es menor que cero ni igual a cero, se ejecuta la cláusula `else`.
 
-## [CICLOS](#contenidos) <a name="U3S2"></a>
+## [Ciclos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
-### [WHILE](#contenidos) <a name="U3S2S1"></a>
+### [While](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
 El ciclo `while` se utiliza para repetir un bloque de código mientras una condición sea verdadera. La sintaxis es la siguiente:
 
@@ -407,7 +414,7 @@ end
 
 > El ciclo se detiene porque en algún punto el valor de `x` se vuelve infinito al ser demasiado grande para ser representado por un número de punto flotante. En Julia, el valor de `Inf` se usa para representar el infinito positivo.
 
-### [FOR](#contenidos) <a name="U3S2S2"></a>
+### [For](https://github.com/mrnolasco/julia-para-comenzar/blob/main/condicionales-y-ciclos.md#condicionales-y-ciclos)
 
 El ciclo `for` se utiliza para iterar sobre una colección de elementos. 
 
