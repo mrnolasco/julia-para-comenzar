@@ -17,9 +17,9 @@ Las operaciones en Julia funcionan de manera similar a otros lenguajes de progra
 
 Podemos realizar operaciones con variables numéricas, arreglos de números, matrices y cadenas.
 
-## [Operaciones]([#contenidos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)) 
+## [Operaciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
-### [Operaciones con variables numéricas]([#contenidos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones))
+### [Operaciones con variables numéricas](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)
 
 Podemos realizar las operaciones aritméticas básicas, como la suma (`+`), la resta (`-`), la multiplicación (`*`) y la división (`/`) en Julia. También podemos usar los operadores de potencia (`^`) y residuo (`%`).
 
@@ -201,7 +201,7 @@ cadena = "abc"
 repetido = cadena^3  
 ```
 
-## [Funciones]([#contenidos](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones)) 
+## [Funciones](https://github.com/mrnolasco/julia-para-comenzar/blob/main/operaciones-y-funciones.md#operaciones-y-funciones) 
 
 Son objetos que reciben una tupla de argumentos y devuelven un valor.
 
