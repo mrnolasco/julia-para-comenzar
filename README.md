@@ -13,7 +13,7 @@ notebook()
 ```
 * Acepte la instalación de IJulia y Jupyter si es necesario.
 * Después de la instalación, se ejecutará automáticamente una libreta de Jupyter.
-* Para iniciar Julia con la libreta de Jupyter, puede hacerlo desde el icono del escritorio o ejecutando el comando using `using IJulia; notebook()` en una consola o terminal de Julia.
+* Para iniciar Julia con la libreta de Jupyter, puede hacerlo desde el icono del escritorio o ejecutando el comando `using IJulia; notebook()` en una consola o terminal de Julia.
 
 ## <font color=blue>[Introducción a la Programación en Julia](https://github.com/mrnolasco/julia-para-comenzar/blob/main/Notebook%2001%20-%20Introducci%C3%B3n%20a%20la%20Programaci%C3%B3n%20en%20Julia.ipynb)</font>
 
