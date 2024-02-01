@@ -5,15 +5,37 @@ Curso básico para comenzar a programar en Julia
 
     https://julialang.org/
 
-* Abra Julia y ejecute los siguientes comandos:
+* Para Windows instala la última versión de Julia (v1.10.0, 25 de diciembre de 2023) desde la Microsoft Store ejecutando el siguiente comando en la ventana de comandos:
 
-```Julia
-using IJulia;
-notebook()
 ```
-* Acepte la instalación de IJulia y Jupyter si es necesario.
-* Después de la instalación, se ejecutará automáticamente una libreta de Jupyter.
-* Para iniciar Julia con la libreta de Jupyter, puede hacerlo desde el icono del escritorio o ejecutando el comando `using IJulia; notebook()` en una consola o terminal de Julia.
+winget install julia -s msstore
+```
+## <font color=blue>Instalación de Pluto</font>
+
+* Ahora instalaremos el cuaderno Pluto que utilizaremos durante el curso. 
+
+- Abre el REPL de Julia.
+
+Para instalar Pluto, ejecutamos el comando del gestor de paquetes. Para cambiar de modo Julia a modo Pkg, escribe ] (corchete cerrado) en el prompt:
+
+```julia
+julia> ]
+```
+
+La línea se vuelve azul y el prompt cambia a pkg>, indicándote que ahora estás en modo de gestor de paquetes. Este modo te permite realizar operaciones en paquetes (también llamados bibliotecas).
+
+Para instalar Pluto, ejecuta el siguiente comando (sensible a mayúsculas) para agregar (instalar) el paquete en tu sistema descargándolo de Internet. Deberías necesitar hacer esto sólo una vez:
+
+```julia
+(@v1.10) pkg> add Pluto
+```
+Inicia el REPL de Julia, como lo hiciste durante la configuración. En el REPL, escribe:
+
+```julia
+julia> using Pluto
+
+julia> Pluto.run()
+```
 
 ## <font color=blue>[Introducción a la Programación en Julia](https://github.com/mrnolasco/julia-para-comenzar/blob/main/Notebook%2001%20-%20Introducci%C3%B3n%20a%20la%20Programaci%C3%B3n%20en%20Julia.ipynb)</font>
 
